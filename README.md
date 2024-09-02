@@ -4,7 +4,6 @@
 
 - 🔭 Atualmente trabalho como gerente de TI.
 - 📔 Estou fazendo a pós tech FIAP em Full Stack.
-- 📫 Você me encontra no [linkedin](https://www.linkedin.com/in/gabriel-nascimento-62959379/) 
 - ⚡ Fun fact: eu comeria uma pizza a qualquer hora do dia, tipo, agora! 😁🍕
 
 ##
