@@ -4,7 +4,7 @@
 
 - 🔭 Atualmente trabalho como gerente de TI na [Grancoffee](https://grancoffee.com.br/)
 - 📔 Estou fazendo a pós tech FIAP em Full Stack.
-- ⚡ Fun fact: eu comeria uma pizza a qualquer hora do dia, tipo, agora! 😁🍕
+- ⚡ Fun fact: eu comeria um pedaço de pizza a qualquer hora do dia, tipo, agora! 😁🍕
 
 ##
 <div style="display: inline_block"><br>
