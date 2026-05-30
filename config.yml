@@ -57,12 +57,27 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
-  - repo: "galaxy-dev/nebula-ui"
+  - repo: "departamentoTiGrancoffee/portal_grancoffee"
     arm: 0
-    description: "A component library with cosmic design tokens and dark-first theming."
-  - repo: "galaxy-dev/stargate-api"
+    description: "Portal corporativo Gran Coffee — frontend TypeScript com múltiplos módulos internos."
+  - repo: "departamentoTiGrancoffee/roteirizacao-abastecedores"
+    arm: 0
+    description: "Ferramenta web para criação de roteiros otimizados para a equipe de abastecedores."
+  - repo: "departamentoTiGrancoffee/gran-helper"
     arm: 1
-    description: "High-performance API gateway with built-in observability and caching."
+    description: "API de serviços globais (login Sankhya, integrações) usada por todos os workers internos."
+  - repo: "departamentoTiGrancoffee/gama-talk"
+    arm: 1
+    description: "Chatbot com IA para atendimento e automação de fluxos da Gran Coffee."
+  - repo: "departamentoTiGrancoffee/worker-hera"
+    arm: 1
+    description: "Worker TypeScript para processamento de rotinas internas da Gran Coffee."
+  - repo: "departamentoTiGrancoffee/broker-mqtt"
+    arm: 2
+    description: "Broker MQTT interno para comunicação IoT entre projetos e dispositivos da Gran Coffee."
+  - repo: "departamentoTiGrancoffee/grafana"
+    arm: 2
+    description: "Setup do Grafana para observabilidade e dashboards de monitoramento das aplicações internas."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
