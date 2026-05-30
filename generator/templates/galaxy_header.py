@@ -10,7 +10,7 @@ MAX_RADIUS = 220
 SPIRAL_TURNS = 0.85
 NUM_POINTS = 30
 X_SCALE, Y_SCALE = 1.5, 0.38
-START_ANGLES = [25, 150, 265]
+START_ANGLES = [25, 115, 205, 295]
 
 
 def _build_glow_filters(galaxy_arms, arm_colors):

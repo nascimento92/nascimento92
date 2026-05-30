@@ -50,6 +50,12 @@ galaxy_arms:
       - "Docker"
       - "GitHub Actions"
       - "AWS"
+  - name: "Mobile"
+    color: "synapse_cyan"
+    items:
+      - "Flutter"
+      - "Dart"
+      - "Firebase"
 
 # Featured projects shown as constellation stars
 # Each project needs:
@@ -87,6 +93,15 @@ projects:
   - repo: "departamentoTiGrancoffee/grafana"
     arm: 2
     description: "Setup do Grafana para observabilidade e dashboards de monitoramento das aplicações internas."
+  - repo: "departamentoTiGrancoffee/gc-digital-v2"
+    arm: 3
+    description: "App mobile Gran Coffee Digital — interface para operações e serviços internos."
+  - repo: "departamentoTiGrancoffee/gc_tecnicos"
+    arm: 3
+    description: "App Flutter para a equipe de técnicos — gestão de chamados e ordens de serviço."
+  - repo: "departamentoTiGrancoffee/gc-operacao-v2"
+    arm: 3
+    description: "App Flutter de operações — controle de abastecimento e rotinas de campo."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
@@ -117,5 +132,4 @@ languages:
     - "CSS"
     - "Shell"
     - "Makefile"
-    - "Dart"
   max_display: 8               # Maximum number of languages to show
