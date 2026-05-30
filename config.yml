@@ -66,12 +66,21 @@ projects:
   - repo: "departamentoTiGrancoffee/gran-helper"
     arm: 1
     description: "API de serviços globais (login Sankhya, integrações) usada por todos os workers internos."
-  - repo: "departamentoTiGrancoffee/gama-talk"
-    arm: 1
-    description: "Chatbot com IA para atendimento e automação de fluxos da Gran Coffee."
   - repo: "departamentoTiGrancoffee/worker-hera"
     arm: 1
     description: "Worker TypeScript para processamento de rotinas internas da Gran Coffee."
+  - repo: "departamentoTiGrancoffee/worker-artemis"
+    arm: 1
+    description: "Worker TypeScript de automações e integrações assíncronas da Gran Coffee."
+  - repo: "departamentoTiGrancoffee/worker-nfce"
+    arm: 1
+    description: "Worker para emissão e processamento de NFC-e integrado ao ERP Sankhya."
+  - repo: "departamentoTiGrancoffee/gama-talk"
+    arm: 1
+    description: "Chatbot com IA para atendimento e automação de fluxos da Gran Coffee."
+  - repo: "departamentoTiGrancoffee/health-checker"
+    arm: 1
+    description: "Serviço de monitoramento que verifica apps em produção e alerta via Telegram."
   - repo: "departamentoTiGrancoffee/broker-mqtt"
     arm: 2
     description: "Broker MQTT interno para comunicação IoT entre projetos e dispositivos da Gran Coffee."
@@ -108,4 +117,5 @@ languages:
     - "CSS"
     - "Shell"
     - "Makefile"
+    - "Dart"
   max_display: 8               # Maximum number of languages to show
